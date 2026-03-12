@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Report Traffic Incident</title>
+</head>
+
+<body>
+
+<h2>Report Traffic Incident</h2>
+
+<input type="text" placeholder="Location">
+
+<br><br>
+
+<select>
+
+<option>Accident</option>
+
+<option>Heavy Traffic</option>
+
+<option>Road Block</option>
+
+</select>
+
+<br><br>
+
+<textarea placeholder="Description"></textarea>
+
+<br><br>
+
+<button onclick="submitReport()">Submit</button>
+
+<p id="msg"></p>
+
+<script>
+
+function submitReport(){
+
+document.getElementById("msg").innerHTML =
+"Incident reported successfully"
+
+}
+
+</script>
+
+</body>
+
+</html>
